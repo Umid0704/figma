@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#242B33;
+}
+nav{
+    height: 840px;
+    width: 100%;
+    background-image: url(./img/Rectangle.png);
+    padding: 37px 250px 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotip h2{
+    font-weight: 600;
+    color:#ffffff;
+}
+.logotip p{
+    color:#ffffff;
+    font-size: 12px;
+}
+.navbar-nav h2 {
+    font-family: "Post No Bills Jaffna SemiBold";
+    font-size: 36px;
+
+}
+.navbar-nav li  a {
+    text-decoration: none;
+    color:#ffffff;
+}
+.navbar-nav ul{
+    list-style: none;
+    display: flex;
+    gap:40px;
+}
+.nav__box-3{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+
+.nav__box-1 h2{
+    text-align: center;
+    font-size: 48px;
+    color:#D4C17F;
+    font-family: "Playfair Display";
+    
+}
+
+.nav__box-3 div{
+
+    display: flex;
+    gap:15px;
+}
+
+.nav__box-3 p{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+article{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 120px ;
+    height: 420px;
+    gap:70px;      
+    text-align: center;             
+    color:#ffffff;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 202px ;
+}
+.section__image{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.section__image>div{
+    position: relative;
+}
+.section__image p{
+    position: absolute;
+    top:250px;
+    left: 50px;
+    color:#ffffff;
+    font-size: 24px;
+}
+
